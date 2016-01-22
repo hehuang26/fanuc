@@ -1,0 +1,46 @@
+﻿Build started 9/15/2015 5:26:20 PM.
+     1>Project "C:\Project\UNMan\Software\adapter\fanuc\fanuc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\fanuc.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\src /I..\Fwlib /I..\Fwlib\e1 /I..\minIni_07 /ZI /nologo /W3 /WX- /Od /Oy- /D INI_ANSIONLY /D DEBUG /D FS30D /D WIN32 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fanuc_path.cpp
+         fanuc_path.cpp
+     1>c:\project\unman\software\adapter\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\fanuc\fwlib32.h(38): warning C4005: 'FS30D' : macro redefinition
+                 command-line arguments :  see previous definition of 'FS30D'
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\server.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\string_buffer.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\UNMan\Software\adapter\fanuc\Debug\fanuc.exe" /INCREMENTAL /NOLOGO Fwlib32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Project\UNMan\Software\adapter\fanuc\Debug\fanuc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\UNMan\Software\adapter\fanuc\Debug\fanuc.lib" /MACHINE:X86 Debug\adapter.obj
+         Debug\client.obj
+         Debug\condition.obj
+         Debug\device_datum.obj
+         Debug\fanuc_adapter.obj
+         Debug\FanucAdapter.obj
+         Debug\logger.obj
+         Debug\minIni.obj
+         Debug\server.obj
+         Debug\service.obj
+         Debug\string_array.obj
+         Debug\string_buffer.obj
+         Debug\fanuc_axis.obj
+         Debug\fanuc_path.obj
+         fanuc.vcxproj -> C:\Project\UNMan\Software\adapter\fanuc\Debug\fanuc.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\fanuc.unsuccessfulbuild".
+         Touching "Debug\fanuc.lastbuildstate".
+     1>Done Building Project "C:\Project\UNMan\Software\adapter\fanuc\fanuc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.36
