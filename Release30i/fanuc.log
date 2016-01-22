@@ -1,0 +1,83 @@
+﻿Build started 9/10/2015 3:04:06 PM.
+     1>Project "C:\Project\UNMan\Software\adapter\fanuc\fanuc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release30i\fanuc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\src /I..\Fwlib /I..\Fwlib\e1 /I..\minIni_07 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D FS30D /D WIN32 /D INI_ANSIONLY /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release30i\\" /Fd"Release30i\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\adapter.cpp ..\src\string_buffer.cpp fanuc_adapter.cpp fanuc_path.cpp
+         adapter.cpp
+     1>..\src\adapter.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\server.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\string_buffer.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         string_buffer.cpp
+     1>..\src\string_buffer.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\string_buffer.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         fanuc_adapter.cpp
+     1>C:\Project\UNMan\Software\adapter\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\server.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\string_buffer.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\fanuc\Fwlib32.h(38): warning C4005: 'FS30D' : macro redefinition
+                 command-line arguments :  see previous definition of 'FS30D'
+         fanuc_path.cpp
+     1>C:\Project\UNMan\Software\adapter\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\fanuc\Fwlib32.h(38): warning C4005: 'FS30D' : macro redefinition
+                 command-line arguments :  see previous definition of 'FS30D'
+     1>C:\Project\UNMan\Software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\server.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\string_buffer.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter\src\threading.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\device_datum.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\condition.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Project\UNMan\Software\adapter\src\adapter.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc.exe) does not match the Linker's OutputFile property value (C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc_30i.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(fanuc) does not match the Linker's OutputFile property value (fanuc_30i). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc_30i.exe" /INCREMENTAL:NO /NOLOGO Fwlib32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release30i\fanuc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc.lib" /MACHINE:X86 Release30i\adapter.obj
+         Release30i\client.obj
+         Release30i\condition.obj
+         Release30i\device_datum.obj
+         Release30i\fanuc_adapter.obj
+         Release30i\FanucAdapter.obj
+         Release30i\logger.obj
+         Release30i\minIni.obj
+         Release30i\server.obj
+         Release30i\service.obj
+         Release30i\string_array.obj
+         Release30i\string_buffer.obj
+         Release30i\fanuc_axis.obj
+         Release30i\fanuc_path.obj
+         Generating code
+         Finished generating code
+         fanuc.vcxproj -> C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Project\UNMan\Software\adapter\fanuc\Release30i\fanuc_30i.exe;#1" /manifest Release30i\fanuc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release30i\fanuc.unsuccessfulbuild".
+         Touching "Release30i\fanuc.lastbuildstate".
+     1>Done Building Project "C:\Project\UNMan\Software\adapter\fanuc\fanuc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.02
